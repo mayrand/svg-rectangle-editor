@@ -1,0 +1,17 @@
+@RectangleApi_HostAddress = http://localhost:5285
+
+GET {{RectangleApi_HostAddress}}/rectangle/
+Accept: application/json
+
+
+###
+
+
+POST {{RectangleApi_HostAddress}}/rectangle/
+Content-Type: application/json
+
+{
+    "Width":150,
+    "Height":70
+}
+###
