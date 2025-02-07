@@ -17,3 +17,21 @@ calculations)
 
 Implement by using React (frontend) and C# (for JSON taking and saving through API).
 Provide the source code with a readme file.
+
+
+## Setup
+
+### Frontend (React)
+1. Navigate to the `svg-rectangle-editor` folder.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the development server.
+
+### Backend (C#)
+1. Navigate to the `RectangleApi` folder.
+2. Run `dotnet run` to start the API server.
+
+## Usage
+1. Open the React app in your browser.
+2. Resize the rectangle by clicking and dragging.
+3. The perimeter will update dynamically.
+4. If the width exceeds the height, an error message will be displayed.
